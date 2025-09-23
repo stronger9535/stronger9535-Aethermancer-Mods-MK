@@ -1,0 +1,21 @@
+# Ignore everything by default
+*
+
+# Only include the mod DLL and documentation
+!SpeedToggleMod.dll
+!README.md
+!.gitignore
+
+# Ignore all game files and other mods
+Aethermancer*
+BepInEx/*
+!BepInEx/plugins/SpeedToggleMod.dll
+sourcereference/
+bin/
+MonoBleedingEdge/
+D3D12/
+*.exe
+*.log
+CLAUDE.md
+SpeedToggleMod/
+EXAMPLEMODSOURCE/
